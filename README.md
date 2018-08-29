@@ -97,13 +97,12 @@ public class List {
 	private int size = 0;
 
 	public void add(Object element) {
-		if (!readOnly) {
-			if (isFull()) {
-				increaseStoreSize();
-			}
-
-			addElementAtEnd(element);
+		if (readOnly)
+			return;
+		if (isFull()) {
+			increaseStoreSize();
 		}
+		addElementAtEnd(element);
 	}
 
 	private boolean isFull() {
