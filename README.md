@@ -48,5 +48,6 @@ public class List {
 
 ## Identify `Code Smell`
 
-https://en.wikipedia.org/wiki/Code_smell
+* https://en.wikipedia.org/wiki/Code_smell
+* "Refactoring: Improving the Design of Existing Code" by Martin Fowler
 
