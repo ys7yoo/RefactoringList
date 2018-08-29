@@ -15,7 +15,9 @@ You can check `Help > Eclipse Market Place`.
 
 ![pic/EclEmma.png](pic/EclEmma.png)
 
+### shortcut
 
+In `Eclipse > Preferences > Keys`, assign `Rerun JUnit Test` a short cut `OPT+CMD+0`
 
 ## Legacy code
 
