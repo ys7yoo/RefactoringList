@@ -64,3 +64,10 @@ public class List {
 * https://en.wikipedia.org/wiki/Code_smell
 * "Refactoring: Improving the Design of Existing Code" by Martin Fowler
 
+
+## Refactoring
+
+| Smell        | Fix (shortcut)        | Result |
+| ------------- | ------------- | ------------- |
+| Magic Number  10   | Extract Constant | INITIAL_STORE_SIZE |
+| Magic Number  10   | Extract Constant | STORE_SIZE_INCREMENT |
