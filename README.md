@@ -1,4 +1,4 @@
-# RefactoringList - Rafactoring example 1
+# Rafactoring example 1
 
 The 1st example of STA Test Automation Workshop, taught by Jaehoon Oh, CEO of XPWorks Inc., on Aug. 29, 2018.
 
