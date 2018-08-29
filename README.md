@@ -3,7 +3,7 @@
 Here is an implementation of the `list` data structure.
 
 In a list, a new item can be added at the end.
-A new list is initilized with memory spaces for 10 items. 
+A new list is initilized with memory space for 10 items. 
 If needed, the storage size is increased by 10. 
 
 Start from a given code [List.java](src/main/java/original/List.java), improve the code quality by refactoring.
