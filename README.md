@@ -1,9 +1,13 @@
 # RefactoringList - Rafactoring example 1
 
 Here is an implementation of `list` data structure.
+
 In a list, a new item can be added at the end.
 A new list is initilized with memory spaces for 10 items. 
 If needed, the storage size is increased by 10. 
+
+Start from a given code [List.java](src/main/java/original/List.java), improve the code quality by refactoring.
+
 
 
 ## Setup 
