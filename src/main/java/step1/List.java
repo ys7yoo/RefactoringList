@@ -10,12 +10,16 @@ public class List {
 
 	public void add(Object element) {
 		if (!readOnly) {
-			if ( size + 1 > elements.length) {
+			if (isFull()) {
 				increaseStoreSize();
 			}
 
 			addElementAtEnd(element);
 		}
+	}
+
+	private boolean isFull() {
+		return size + 1 > elements.length;
 	}
 
 	private void addElementAtEnd(Object element) {
