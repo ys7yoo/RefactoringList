@@ -7,6 +7,9 @@ In Eclipse, import this as a Maven project.
 `File > Import > Maven > Existing Maven Projects`
 
 ## Legacy code
+
+[List.java](src/main/java/original/List.java)
+
 ```
 package step1;
 
