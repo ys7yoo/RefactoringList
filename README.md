@@ -23,7 +23,7 @@ In Eclipse, import this as a Maven project.
 
 ### 2. tools
 Make sure that [`EclEmma`](https://www.eclemma.org) is installled in Eclipse. `Eclipse IDE for Java Developers` comes with it.
-You can check it by `Help > Eclipse Market Place`.
+You can check it by searching `EclEmma` in `Help > Eclipse Market Place` in Eclipse.
 
 ### 3. shortcut
 
