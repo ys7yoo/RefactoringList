@@ -13,8 +13,7 @@ Start from a given code [List.java](src/main/java/original/List.java), improve t
 ## Setup 
 ### 0. Install JDK & Eclipse
 * [Java SE Development Kit 8 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (I installed `jdk-8u181-macosx-x64.dmg`).
-* [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/) (I installed `Eclipse IDE for Java Developers
-http://www.eclipse.org/downloads/packages/`)
+* [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages) (I installed `eclipse-java-photon-R-macosx-cocoa-x86_64.dmg`)
 
 ### 1. import project
 
