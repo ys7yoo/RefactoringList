@@ -45,3 +45,8 @@ public class List {
 	}
 }
 ```
+
+## Identify `Code Smell`
+
+https://en.wikipedia.org/wiki/Code_smell
+
