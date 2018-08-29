@@ -71,4 +71,4 @@ public class List {
 | ------------- | ------------- | ------------- | 
 | Magic Number  (10)   | Extract Constant (CMD+1) |  [INITIAL_STORE_SIZE](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71) |
 | Magic Number  (10)   | Extract Constant (CMD+1)| [STORE_SIZE_INCREMENT](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71) | 
-| Long Method (add)   | Extract Method (CMD+M)| [STORE_SIZE_INCREMENT](https://github.com/ys7yoo/RefactoringList/commit/0e37d3df78d4c769876b05636dcc758e92d5dbad) | 
+| Long Method (add)   | Extract Method (CMD+M)| [increaseStoreSize()](https://github.com/ys7yoo/RefactoringList/commit/0e37d3df78d4c769876b05636dcc758e92d5dbad) | 
