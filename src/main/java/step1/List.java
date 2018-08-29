@@ -22,11 +22,6 @@ public class List {
 		return size + 1 > elements.length;
 	}
 
-	private void addElementAtEnd(Object element) {
-		elements[size] = element;
-		size++;
-	}
-
 	private void increaseStoreSize() {
 		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
 		for (int i = 0; i < size; i++) {
@@ -34,6 +29,11 @@ public class List {
 		}
 
 		elements = newElements;
+	}
+
+	private void addElementAtEnd(Object element) {
+		elements[size] = element;
+		size++;
 	}
 
 	public int size() {
