@@ -69,5 +69,5 @@ public class List {
 
 | Smell        | Fix (shortcut)        | Result |
 | ------------- | ------------- | ------------- |
-| Magic Number  10   | [Extract Constant](fe7aab2e1da8b36f0cb64c94811b9f319c728a71)  | INITIAL_STORE_SIZE |
+| Magic Number  10   | Extract Constant fe7aab2e1da8b36f0cb64c94811b9f319c728a71  | INITIAL_STORE_SIZE |
 | Magic Number  10   | Extract Constant | STORE_SIZE_INCREMENT |
