@@ -89,8 +89,8 @@ public class List {
 package step1;
 
 public class List {
-	private static final int STORE_SIZE_INCREMENT = 10;
 	private static final int INITIAL_STORE_SIZE = 10;
+	private static final int STORE_SIZE_INCREMENT = 10;
 	
 	private Object[] elements = new Object[INITIAL_STORE_SIZE];
 	private boolean readOnly;
@@ -99,9 +99,11 @@ public class List {
 	public void add(Object element) {
 		if (readOnly)
 			return;
+		
 		if (isFull()) {
 			increaseStoreSize();
 		}
+		
 		addElementAtEnd(element);
 	}
 
