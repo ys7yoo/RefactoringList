@@ -75,3 +75,56 @@ public class List {
 | 4 | Long Method (add)   | Extract Method (OPT+CMD+M) | [addElementAtEnd()](https://github.com/ys7yoo/RefactoringList/commit/708b3b6fed259683d31e3cdf82d42cc13a7821a8) | 
 | 5 | Long Method (add)   | Inline (OPT+CMD+I) | [removed `int newSize`](https://github.com/ys7yoo/RefactoringList/commit/ff9aa1fee586fe7b37ce23f37d423a46f9268fd2) | 
 | 6 | Long Method (add)   | Extract Method (OPT+CMD+M) | [isFull()](https://github.com/ys7yoo/RefactoringList/commit/ab4970d0bdc7409b0f0f0740d8bc398339369985) | 
+
+## Cleaner code
+
+[List.java](src/main/java/step1/List.java)
+
+```
+package step1;
+
+public class List {
+	private static final int STORE_SIZE_INCREMENT = 10;
+	private static final int INITIAL_STORE_SIZE = 10;
+	
+	private Object[] elements = new Object[INITIAL_STORE_SIZE];
+	private boolean readOnly;
+	private int size = 0;
+
+	public void add(Object element) {
+		if (!readOnly) {
+			if (isFull()) {
+				increaseStoreSize();
+			}
+
+			addElementAtEnd(element);
+		}
+	}
+
+	private boolean isFull() {
+		return size + 1 > elements.length;
+	}
+
+	private void increaseStoreSize() {
+		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i];
+		}
+
+		elements = newElements;
+	}
+
+	private void addElementAtEnd(Object element) {
+		elements[size] = element;
+		size++;
+	}
+
+	public int size() {
+		return size;
+	}
+
+	public Object get(int index) {
+		return elements[index];
+	}
+}
+```
