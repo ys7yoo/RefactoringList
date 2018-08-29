@@ -25,8 +25,6 @@ In Eclipse, import this as a Maven project.
 Make sure that [`EclEmma`](https://www.eclemma.org) is installled in Eclipse. `Eclipse IDE for Java Developers` comes with it.
 You can check it by `Help > Eclipse Market Place`.
 
-![pic/EclEmma.png](pic/EclEmma.png)
-
 ### 3. shortcut
 
 In `Eclipse > Preferences > Keys`, assign `Rerun JUnit Test` a short cut `OPT+CMD+0`
