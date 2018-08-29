@@ -1,10 +1,21 @@
 # RefactoringList - Rafactoring example 1
 
-## import 
+
+## Setup 
+
+### import project
 
 In Eclipse, import this as a Maven project.
 
 `File > Import > Maven > Existing Maven Projects`
+
+### tools
+Make sure that [`EclEmma`](https://www.eclemma.org) is installled in Eclipse. `Eclipse IDE for Java Developers` comes with it.
+You can check `Help > Eclipse Market Place`.
+
+![pic/EclEmma.png](pic/EclEmma.png)
+
+
 
 ## Legacy code
 
