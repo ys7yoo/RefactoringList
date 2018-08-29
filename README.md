@@ -30,9 +30,7 @@ You can check it by searching `EclEmma` in `Help > Eclipse Market Place` in Ecli
 
 In `Eclipse > Preferences > Keys`, assign `Rerun JUnit Test` a binding `OPT+CMD+0`
 
-## Legacy code
-
-[List.java](src/main/java/original/List.java)
+## Legacy code ([List.java](src/main/java/original/List.java))
 
 ```
 package original;
@@ -92,9 +90,7 @@ public class List {
 
 
 
-## Results - Cleaner code
-
-[List.java](src/main/java/step1/List.java)
+## Result - Cleaner code ([List.java](src/main/java/step1/List.java))
 
 ```
 package step1;
