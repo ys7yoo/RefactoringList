@@ -11,9 +11,6 @@ When needed, the storage size is increased by 10.
 Start from a given code [List.java](src/main/java/original/List.java), improve the code quality by refactoring.
 
 
-practice 
-
-
 ## Setup 
 ### 0. Install JDK & Eclipse
 * [Java SE Development Kit 8 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (I installed `jdk-8u181-macosx-x64.dmg`).
