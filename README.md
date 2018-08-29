@@ -81,7 +81,7 @@ public class List {
 
 ## Refactoring
 
-| Step | Smell        | Fix (shortcut) |  Result (link to commit)
+| Step | Smell        | Fix (shortcut) |  Change (link to commit)
 | :---: | ------------- | ------------- | ------------- | 
 | 1 | Magic Number  (10)   | Extract Constant (CMD+1) |  [INITIAL_STORE_SIZE](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71) |
 | 2 | Magic Number  (10)   | Extract Constant (CMD+1) | [STORE_SIZE_INCREMENT](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71) | 
