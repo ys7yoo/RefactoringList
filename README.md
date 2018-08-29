@@ -28,7 +28,7 @@ You can check it by searching `EclEmma` in `Help > Eclipse Market Place` in Ecli
 
 ### 3. shortcut
 
-In `Eclipse > Preferences > Keys`, assign `Rerun JUnit Test` a short cut `OPT+CMD+0`
+In `Eclipse > Preferences > Keys`, assign `Rerun JUnit Test` a binding `OPT+CMD+0`
 
 ## Legacy code
 
