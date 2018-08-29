@@ -75,6 +75,11 @@ public class List {
 | 4 | Long Method (add)   | Extract Method (OPT+CMD+M) | [addElementAtEnd()](https://github.com/ys7yoo/RefactoringList/commit/708b3b6fed259683d31e3cdf82d42cc13a7821a8) | 
 | 5 | Long Method (add)   | Inline (OPT+CMD+I) | [removed `int newSize`](https://github.com/ys7yoo/RefactoringList/commit/ff9aa1fee586fe7b37ce23f37d423a46f9268fd2) | 
 | 6 | Long Method (add)   | Extract Method (OPT+CMD+M) | [isFull()](https://github.com/ys7yoo/RefactoringList/commit/ab4970d0bdc7409b0f0f0740d8bc398339369985) | 
+| 7 | Conditional Compelxity (if(!...))   | Convert to 'if-!-return' (CMD+1) | [if (readOnly) \n    return;](https://github.com/ys7yoo/RefactoringList/commit/28a449b3e5f91a3eacb993160f899696b489bc3e) | 
+
+
+
+
 
 ## Results - Cleaner code
 
