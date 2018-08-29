@@ -1,5 +1,7 @@
 # RefactoringList - Rafactoring example 1
 
+The 1st example of STA Test Automation workshop, taught by Jaehoon Oh, CEO of XPWorks Inc., on Aug. 29, 2018.
+
 Here is an implementation of the `list` data structure.
 
 In a list, a new item can be added at the end.
@@ -8,6 +10,8 @@ When needed, the storage size is increased by 10.
 
 Start from a given code [List.java](src/main/java/original/List.java), improve the code quality by refactoring.
 
+
+practice 
 
 
 ## Setup 
