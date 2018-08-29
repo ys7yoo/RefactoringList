@@ -11,20 +11,24 @@ Start from a given code [List.java](src/main/java/original/List.java), improve t
 
 
 ## Setup 
+### 0. Install JDK & Eclipse
+* [Java SE Development Kit 8 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (I installed `jdk-8u181-macosx-x64.dmg`).
+* [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/) (I installed `Eclipse IDE for Java Developers
+http://www.eclipse.org/downloads/packages/`)
 
-### import project
+### 1. import project
 
 In Eclipse, import this as a Maven project.
 
 `File > Import > Maven > Existing Maven Projects`
 
-### tools
+### 2. tools
 Make sure that [`EclEmma`](https://www.eclemma.org) is installled in Eclipse. `Eclipse IDE for Java Developers` comes with it.
 You can check `Help > Eclipse Market Place`.
 
 ![pic/EclEmma.png](pic/EclEmma.png)
 
-### shortcut
+### 3. shortcut
 
 In `Eclipse > Preferences > Keys`, assign `Rerun JUnit Test` a short cut `OPT+CMD+0`
 
