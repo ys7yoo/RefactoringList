@@ -67,7 +67,7 @@ public class List {
 
 ## Refactoring
 
-| Smell        | Fix (shortcut) |  Result  | Commit |
-| ------------- | ------------- | ------------- | ------------- |
-| Magic Number  10   | Extract Constant |  INITIAL_STORE_SIZE | [fe7aab2e1da8b36f0cb64c94811b9f319c728a71](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71)
-| Magic Number  10   | Extract Constant | STORE_SIZE_INCREMENT | [fe7aab2e1da8b36f0cb64c94811b9f319c728a71](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71) | 
+| Smell        | Fix (shortcut) |  Result (link to commit)
+| ------------- | ------------- | ------------- | 
+| Magic Number  10   | Extract Constant (CMD+1) |  [INITIAL_STORE_SIZE](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71) |
+| Magic Number  10   | Extract Constant (CMD+1)| [STORE_SIZE_INCREMENT](https://github.com/ys7yoo/RefactoringList/commit/fe7aab2e1da8b36f0cb64c94811b9f319c728a71) | 
