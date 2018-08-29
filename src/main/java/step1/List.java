@@ -13,17 +13,21 @@ public class List {
 			int newSize = size + 1;
 			
 			if ( newSize > elements.length) {
-				Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
-				for (int i = 0; i < size; i++) {
-					newElements[i] = elements[i];
-				}
-
-				elements = newElements;
+				increaseStoreSize();
 			}
 
 			elements[size] = element;
 			size++;
 		}
+	}
+
+	private void increaseStoreSize() {
+		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i];
+		}
+
+		elements = newElements;
 	}
 
 	public int size() {
