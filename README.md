@@ -11,7 +11,7 @@ In Eclipse, import this as a Maven project.
 [List.java](src/main/java/original/List.java)
 
 ```
-package step1;
+package original;
 
 public class List {
 	private Object[] elements = new Object[10];
