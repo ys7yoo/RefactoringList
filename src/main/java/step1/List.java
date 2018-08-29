@@ -10,9 +10,7 @@ public class List {
 
 	public void add(Object element) {
 		if (!readOnly) {
-			int newSize = size + 1;
-			
-			if ( newSize > elements.length) {
+			if ( size + 1 > elements.length) {
 				increaseStoreSize();
 			}
 
